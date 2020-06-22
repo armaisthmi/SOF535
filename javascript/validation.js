@@ -5,7 +5,9 @@ function validateForm() {
     if (x == "" || y == "") {
       alert("Please fill the username and password correctly");
       return false;
-    }
+    }else if(x==="admin" && y==="admin"){
+		return true;
+	}
   }
 
   function alertBox(){
